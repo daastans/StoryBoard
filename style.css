@@ -1,0 +1,169 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:white;
+}
+
+h1 {
+  margin:40px;  
+  padding-top:70px;
+  color:black;
+}
+h3
+{
+  margin-bottom:0px;
+  margin-left:10px;
+
+}
+p
+{
+  margin-left:10px;
+  margin-top:0;
+   max-width: 650px;
+  
+}
+.logo
+{
+  width:10%;
+  height:10%;
+}
+.title
+{
+  position:fixed;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+  background-color:rgba(200,200,200,0.2);
+    border-radius:10px;
+ 
+}
+.rightTitle
+{
+  display:flex;
+  flex-direction:row;
+   justify-content:space-between;
+  
+}
+.intro
+{
+  display:flex;
+  flex-direction:column;
+   
+  
+}
+.info
+{
+  display:flex;
+  justify-content:center;
+  
+  margin-right:auto;
+  padding:1%;;
+}
+button
+{
+  margin:10px;
+  width:auto;
+}
+.column
+{
+  display:flex;
+  flex-direction:column;
+   background:url("");
+  align-items:center;
+  font-family:palatino;
+  
+}
+.img
+{
+  height:70px;
+  width:auto;
+}
+.infodiv
+{
+  background-color:whitesmoke;
+}
+#frame
+{
+  padding:60px;
+}
+.launches
+{
+  display:flex;
+  justify-content:space-around;
+
+}
+.card
+{
+  width:20%;
+  border:2px solid black;
+  border-radius:5px;
+  text-align:center;
+  margin:80px;
+ 
+}
+.info
+{
+  padding:40px;
+}
+
+.demo
+{
+ height:100px;
+  width:auto;
+}
+#submit , #email
+{
+   color: black;
+    border-radius:8px;
+  padding: 5px 62px;
+  text-align: center;
+  font-size: 16px;  
+  border: 2px solid #000
+}
+#nav-bar
+{
+   display: flex;
+    flex-direction: row;
+    width:auto;
+  margin:auto;
+  
+}
+a
+{
+  margin:10px;
+  text-decoration:none;
+  color:black;
+}
+
+@media only screen and (max-width: 600px) {
+  #video {
+    width:300px;
+    height:auto;
+  }
+}
+#video
+{
+  padding:40px;
+  margin-bottom:20px;
+}
+.launches-headings
+{
+  font-family: palatino;
+    
+}
+.select
+{
+  background-color:#FFF;
+  width:10em;
+  height:2.5em;
+  border:2px solid black;
+  border-radius:6px;
+}
+.select:hover
+{
+  background-color:#000;
+  color:white;
+}
